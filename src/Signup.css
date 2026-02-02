@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+form {
+  width: 320px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  outline: none;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* BLUE when touched (focus) */
+input:focus {
+  border-color: #2979ff;
+}
+
+/* GREEN when valid */
+.valid {
+  border-color: green !important;
+}
+
+/* RED when invalid */
+.invalid {
+  border-color: red !important;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 8px;
+  background-color: #2979ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
